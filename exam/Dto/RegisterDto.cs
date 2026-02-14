@@ -1,0 +1,11 @@
+using System;
+
+namespace WebApi.DTOs;
+
+public class RegisterDto
+{
+    public string Email {get; set;} = string.Empty; 
+    public string Password {get;set;} = null!; 
+    public string Phone {get;set;} = null!; 
+    public string FullName {get; set;} = string.Empty;
+}
